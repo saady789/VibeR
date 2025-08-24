@@ -1,8 +1,11 @@
 import { Button } from "@/components/ui/button";
+import { prisma } from "@/lib/db";
 const Page = () => {
-  <div className="font-bold">
-    <Button>Click ME </Button>
-  </div>;
+  return (
+    <div className="font-bold">
+      <Button>Click ME </Button>
+    </div>
+  );
 };
 
 export default Page;
